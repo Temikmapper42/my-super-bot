@@ -1,7 +1,7 @@
 from telegram.ext import CommandHandler, Updater, MessageHandler, Filters
 
 
-updater = Updater('774969442:AAGh4SNNeZDSInwZF_XqSf-e5BDjcTwu0Uwx')
+updater = Updater('774969442:AAFT3VJ0NNQk3TlW6Ixh79gdIIgtVTOLuhM')
 dispatcher = updater.dispatcher
 
 

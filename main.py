@@ -1,7 +1,8 @@
 from telegram.ext import CommandHandler, Updater, MessageHandler, Filters
+import os
 
 
-updater = Updater('774969442:AAFT3VJ0NNQk3TlW6Ixh79gdIIgtVTOLuhM')
+updater = Updater(os.getenv('BOT_TOKEN', None))
 dispatcher = updater.dispatcher
 
 
